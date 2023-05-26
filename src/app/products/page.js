@@ -13,7 +13,7 @@ export default async function ProductPages() {
     <h1 className='mb-4'>Product Sections</h1>
             {
                 prouducts.map(res => (
-                <ProductCard id={res.id} img={res.images[0]} title={res.title} price={res.price}/>
+                <ProductCard key={res.id} id={res.id} img={res.images[0]} title={res.title} price={res.price}/>
                 ))
             }
     </div>

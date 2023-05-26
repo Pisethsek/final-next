@@ -12,7 +12,7 @@ export default async function CategoriesPages() {
     <h1 className='mb-4'>Category Sections</h1>
             {
                 categories.map(res => (
-                <CategoryCard id={res.id} img={res.image} title={res.name} />
+                <CategoryCard key={res.id} id={res.id} img={res.image} title={res.name} />
                 ))
             }
     </div>
