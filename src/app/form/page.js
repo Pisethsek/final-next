@@ -191,7 +191,7 @@ export default function FormPage() {
                       htmlFor="dropzone-file">
                         
                           <Field
-                            // id="dropzone-file"
+                            id="dropzone-file"
                             name="file"
                             type="file"
                             className="hidden"
@@ -243,7 +243,7 @@ function DropFileZone({ field, form }) {
         className="hidden"
       />
       {previewImage && (
-        <img src={previewImage} alt="preview" className="mt-2 h-20 w-full" />
+        <Image src={previewImage} alt="preview" className="mt-2 h-20 w-full" />
       )}
     </>
   );

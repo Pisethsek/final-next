@@ -1,4 +1,4 @@
-import UserCard from '@/components/userCard'
+import UserCard from '@/app/components/userCard'
 import React from 'react'
 import { FindAllUsers } from '../lib/data'
 

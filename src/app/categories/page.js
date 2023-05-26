@@ -1,6 +1,6 @@
 import React from 'react'
 import { FindAllCategories } from '../lib/data'
-import CategoryCard from '@/components/categoryCard'
+import CategoryCard from '@/app/components/categoryCard'
 
 export default async function CategoriesPages() {
 

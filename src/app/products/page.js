@@ -1,5 +1,5 @@
 
-import ProductCard from '@/components/productCard'
+import ProductCard from '@/app/components/productCard'
 import React from 'react'
 import { FindAllProducts } from '../lib/data'
 
